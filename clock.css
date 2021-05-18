@@ -1,0 +1,57 @@
+#clock_container {
+    
+    width: 30vw;
+    height: 30vw;
+    /* background-color: blue; */
+    background: url(clock1.jpg) no-repeat;
+    background-size:contain;
+     
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    /* padding: 10px; */
+    position: relative; 
+    /* it will adjust the position of the clock according to the hour-min-sec line */
+
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    background:black;
+    border-radius:60px;
+    transform-origin: bottom;
+    /* it will rotate from bottom  */
+}
+
+
+#hour{
+    width: 11px;
+    height: 22%;
+    top: 29%;
+    left: 49.1%;
+    /* opacity: 0.8; */
+    /* display: none;    */
+   
+
+}
+
+
+#minute {
+    width: 8px;
+    height: 32%;
+   top: 18%;
+    left: 49.1%;
+    
+    /* opacity: 0.8; */
+    /* display: none; */
+}
+#second{
+   width: 4px;
+    height: 32%;
+    top: 18.4%;
+    left: 49.1%;
+   
+    /* opacity: 0.8; */
+    /* display: none; */
+
+}
+
